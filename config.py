@@ -42,8 +42,8 @@ GIT_TOKEN = getenv(
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+gVWf5Y_c5NA5MGY1")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+gVWf5Y_c5NA5MGY1")
 
-API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') 
-API_KEY = getenv("API_KEY", 'NxGBNexGenBotsc5b366')
+BASE_URL = getenv("API_URL", 'https://BabyAPI.Pro') 
+API_KEY = getenv('API_KEY', 'ADMINBABYX20F56755E70E0694DDCC844F5F1BB465')
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
