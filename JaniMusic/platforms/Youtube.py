@@ -5,7 +5,7 @@ from typing import Union
 import yt_dlp
 from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message
-from youtubesearchpython import VideosSearch, Playlist
+from youtubesearchpython import VideosSearch
 from JaniMusic.utils.formatters import time_to_seconds
 import aiohttp
 from JaniMusic import LOGGER
