@@ -34,3 +34,4 @@ tgcrypto
 #yt-dlp
 motor
 dnspython
+youtube-search-python
