@@ -28,3 +28,9 @@ youtube-search-python
 pykeyboard
 youtube-search-python
 # py-yt-search
+pyrogram==2.0.106
+pytgcalls==3.0.0.dev24
+tgcrypto
+#yt-dlp
+motor
+dnspython
