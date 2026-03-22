@@ -26,3 +26,4 @@ yt-dlp
 youtube-search
 youtube-search-python
 pykeyboard
+py-yt-search
