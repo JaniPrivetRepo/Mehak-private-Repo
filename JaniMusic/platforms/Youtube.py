@@ -39,7 +39,7 @@ import requests
 import yt_dlp
 from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message
-from py_yt import VideosSearch
+from youtubesearchpython import VideosSearch
 from JaniMusic.utils.database import is_on_off
 from JaniMusic.utils.formatters import time_to_seconds
 import os
@@ -69,7 +69,7 @@ def cookie_txt_file():
 async def _download_media(link: str, kind: str, exts: list[str], wait: int = 60):
     vid = link.split("v=")[-1].split("&")[0]
     os.makedirs("downloads", exist_ok=True)
-  from py_yt import VideosSearch, Playlist  for ext in exts:
+  from youtubesearchpython import VideosSearch, Playlist  for ext in exts:
         path = f"downloads/{vid}.{ext}"
         if os.path.exists(path):
             return path
