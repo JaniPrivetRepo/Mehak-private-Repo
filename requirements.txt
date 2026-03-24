@@ -27,4 +27,4 @@ youtube-search
 youtube-search-python
 pykeyboard
 youtube-search-python
-py-yt-search~=0.5.7
+
