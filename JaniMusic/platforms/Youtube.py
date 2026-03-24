@@ -40,15 +40,15 @@ import yt_dlp
 from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message
 from py_yt import VideosSearch
-from IstkharMusic.utils.database import is_on_off
-from IstkharMusic.utils.formatters import time_to_seconds
+from JaniMusic.utils.database import is_on_off
+from JaniMusic.utils.formatters import time_to_seconds
 import os
 import glob
 import random
 import logging
 import aiohttp
 from config import LOGGER_ID
-from IstkharMusic import app
+from JaniMusic import app
 import config
 from config import BASE_URL, API_KEY
 from urllib.parse import urlparse
