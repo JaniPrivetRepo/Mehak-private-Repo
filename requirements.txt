@@ -27,4 +27,13 @@ youtube-search
 youtube-search-python
 pykeyboard
 youtube-search-python
-
+py-yt-search
+pyrogram==2.0.106
+pytgcalls==2.1.0
+tgcrypto
+#py-yt-search
+#yt-dlp
+motor
+dnspython
+requests
+aiohttp
